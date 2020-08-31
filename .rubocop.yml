@@ -1,0 +1,10 @@
+Style/Documentation:
+  Enabled: false
+Layout/LineLength:
+  Max: 110
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.3
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
